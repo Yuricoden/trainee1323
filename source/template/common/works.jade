@@ -1,0 +1,79 @@
+doctype html
+html
+	include ../includes/_head
+	body
+		.layer_parallax
+		ul#iconsvg
+	nav.main-menu
+		ul.main-menu__content
+			li.main-menu__item
+				a.preload-link.main-menu__link.active(href='works.html') Мои работы
+			li.main-menu__item
+				a.preload-link.main-menu__link(href='blog.html') Блог
+			li.main-menu__item
+				a.preload-link.main-menu__link(href='about.html') Обо мне
+			li.main-menu__item
+				a.preload-link.main-menu__link(href='/') Авторизация
+
+		header.header_up_content_full
+			.table-box__top
+				.header__top-row
+					ul.social-links
+						li.social-links__item
+							a.face-item(href='https://www.facebook.com/yuriy.zheludkov')
+								svg
+									use(xlink:href='assets/icons/sprite.svg#facebook')
+						li.social-links__item
+							a.github-item(href='https://github.com/Yuricoden')
+								svg
+									use(xlink:href='assets/icons/sprite.svg#github')
+						li.item
+							a.in-item(href='/')
+								svg
+									use(xlink:href='assets/icons/sprite.svg#in')
+					button#menu-toggle.menu-button
+						.menu-button__line
+			.table-box__middle
+				.vertical-aligned
+					.site-author
+						.avatar
+							img(src='/assets/img/me.jpg', title='Разработка сайтов', alt='Zheludkov Yuri')
+						p.site-author__name Zheludkov Yuri
+						p.site-author__description В разработке
+					svg.header__svg-bg
+						use(xlink:href='assets/icons/sprite.svg#portfolio_header')
+					button.go-down.fa.fa-chevron-down(data-link='.portfolio-slider')
+					svg.header__svg-corner(preserveaspectratio='none', viewbox='0 0 2000 360')
+						use(xlink:href='assets/icons/sprite.svg#bg')
+			.table-box__bottom
+				.header__title
+					.svg-heading
+						h1.svg-heading__text.sidestripes Мои работы
+						svg.svg-heading__img
+							use(xlink:href='assets/icons/sprite.svg#works_header')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Created by development on 19.06.2016.
+

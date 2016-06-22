@@ -1,0 +1,22 @@
+{
+  "name": "loftschool-builder",
+  "description": "",
+  "main": "",
+  "authors": [
+    "a.kalin"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Yuricoden/loft-build",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.1.1",
+    "jquery": "2.1.3"
+  }
+}

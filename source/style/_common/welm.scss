@@ -1,0 +1,84 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.wrap {
+  position: relative;
+  display: flex;
+  min-height: 960px;
+  background: url('../img/parallax.jpg') 50% 50% no-repeat;
+  background-size: cover;
+
+}
+
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 380px;
+  height: 390px;
+  top: 170px;
+  position: relative;
+  background: rgba(252, 252, 252, 0.851);
+}
+.avatar {
+   width:141px;
+  height: 141px;
+  border-radius: 50%;
+  display:block;
+  position: relative;
+  margin: auto;
+
+}
+
+.text {
+  display:block;
+  text-align: center;
+  font-family:"Roboto Medium";
+  font-size:28px;
+  color:#455A64;
+}
+.site {
+  display:block;
+  text-align: center;
+  font-family:"Roboto Regular";
+  font-size:16px;
+  line-height:24px;
+  color:#455A64;
+}
+
+.structura{
+  width:380px;
+  height:44px;
+  display:inline-block;
+  background-color:#01BDA4;
+  position:relative;
+  top:135px;
+  opacity: 0.6;
+  position:relative; }
+
+&.atrib {
+  display: inline-block;
+  padding: 15px  ;
+  text-align: center;
+
+&.atrib:nth-child(+n+2) {
+    border-left:2px solid #f3f3f3;
+  height:43px;
+
+.robot{
+  font-family:"Roboto Regular";
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:36px;
+  color:white;
+  text-align: center; }}}
+
+
+
+
+
+
+
