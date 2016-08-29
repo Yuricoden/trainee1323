@@ -1,0 +1,47 @@
+// =================================
+// Mixins
+// =================================
+=media($screen)
+	$screen_sizes: (l: 1200px, m: 992px, s: 768px, xs: 480px, xxs: 320px)
+	@media only screen and (max-width : #{map-get($screen_sizes, $screen)})
+		@content
+
+// =================================
+// Colors
+// =================================
+// $maincolor: #08b09d
+$maincolor: #00bfa5
+$stripes-color: #373e42
+$text-color: #455a64
+
+$thumb-overlay-color_prev: #b6b4ae
+$thumb-overlay-color_next: #888372
+
+
+$white: #fff
+$white_matte: #fcfcfc
+
+$pastel: #f0efe9
+$pastel_dark: #efebe0
+$pastel_light: #faf8f0
+
+$gray: #c4cbcd
+$gray_light: #d0d2d2
+
+
+// =================================
+// Timings
+// =================================
+$transition-time: .3s
+$transition-time_fast: .2s
+$transition-time_medium: .6s
+$transition-time_slow: 1.5s
+
+
+
+// =================================
+// Measurement
+// =================================
+$footer-height: 450px
+$footer-height_small: 600px
+$footer-height_xsmall: 700px
